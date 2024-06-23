@@ -44,6 +44,12 @@
         font-size: 20px;
         color: #999;
       }
+      .huanyinghuijia {
+        color: red;
+        font-size: 30px;
+        padding: 20px 20px;
+        border-bottom: 1px solid rgb(168, 168, 168);
+      }
       /* 当屏幕宽度小于600px时要改变的css */
       @media (max-width: 600px) {
         .ceBian {
@@ -63,6 +69,10 @@
         margin: 0 0 8px;
         flex: auto;
       }
+      .box1 {
+        text-align: 100px;
+        line-height: 40px;
+      }
     </style>
   </head>
   <body class="flex">
@@ -78,18 +88,16 @@
         "
         class="flex"
       >
-        <img
-          src="https://s21.ax1x.com/2024/06/22/pkrVud0.jpg"
-          width="40px"
-          height="40"
-          alt=""
-        />
+        <img src="头像.png" width="40px" height="40" alt="" />
         <div style="margin-left: 15px"><b>飒飒</b></div>
       </div>
       <!-- 导航栏 -->
       <div class="flex1">
-        <div class="daohang">导航</div>
-        <div class="daohang">导航</div>
+        <div class="huanyinghuijia box1"><b>欢迎回家</b></div>
+        <div class="daohang">
+          <p>联系方式</p>
+          <a href="https://zcm08042.github.io/sasa/egao.html">链接</a>
+        </div>
         <div class="daohang">导航</div>
         <div class="daohang">导航</div>
         <div class="daohang">导航</div>
@@ -98,7 +106,9 @@
     <!-- 主区域  -->
     <div class="flex1 flex column yinying">
       <!-- 头部栏 -->
-      <div style="height: 60px; z-index: 1" class="baise yinying"></div>
+      <div style="height: 60px; z-index: 1" class="myte baise yinying">
+        <h1>站长:ZhangChenMing</h1>
+      </div>
       <!-- 内容区 -->
       <div style="overflow: auto" class="neiROng flex1 flex">
         <!-- 左区 -->
